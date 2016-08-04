@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello, World!"
-date:   2016-08-04 12:41:44 -0400
+date:   2016-08-04 13:41:44 -0400
 categories: blog
 ---
 While I've never had a blog system set up, I figured it would be a good motivator for me to work harder towards actual projects. I hope to post an update on this site every day, with the exception of weekends, with news about what I've been working on.

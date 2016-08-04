@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a soon to be graduate from the University of Vermont with a degree in Computer Science. This is where I have blog posts and information about projects.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+# Current Projects
+I have a hanful of projects currently being worked on, but this is where I put the ones I am most proud of.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[PAUL](https://simonanguish.github.io/Bedroom-Project/): PAUL is my <b>P</b>ersonal <b>A</b>utomated <b>U</b>tilities <b>L</b>ibrary, meant to help with automation and memory. This is my pet project, so a lot of the work I am doing with it will be slow, as I work around the rest of my schedule.

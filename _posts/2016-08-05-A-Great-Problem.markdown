@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Great Problem"
-date:   2016-08-04 13:41:44 -0400
+date:   2016-08-05 15:30:00 -0400
 categories: blog jekyll dnd
 ---
 In my free time I'm the dungeon master for a group of friends and former coworkers, as well as my girlfriend. Usually we meet on Saturday evenings to play, so that I can prepare while Jenn is at work, and it's over all a lot of fun. Today however, due to some scheduling issues, we will be playing as soon as I leave work. 2 of the 3 players have had minimal experience with DnD and the other one was a dungeon master for several years, but wanted to a turn playing the game as a character. Here's an excerpt of the adventure that everyone will be playing through today:

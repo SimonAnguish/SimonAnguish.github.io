@@ -1,0 +1,30 @@
+* {
+	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+}
+
+.post-link {
+	text-decoration: none;
+	color: $text-color;
+}
+
+.post-list {
+	list-style-type: none;
+}
+
+.blog-content {
+	max-width: 80%;
+	margin: auto;
+	
+	p {
+		text-indent: 2em;
+		line-height: $base-line-height;
+	}
+}
+
+blockquote {
+	background: $grey-color-light;
+	padding: .25em 1em;
+	border: 2px solid $grey-color-dark;
+	border-radius: 2px;
+}

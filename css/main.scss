@@ -35,5 +35,13 @@ $on-laptop:        800px;
 //     }
 // }
 
+// Custom
+$base-font-weight-light: 100;
+
+.body-content {
+	width: $content-width;
+	margin: auto;
+}
+
 @import 'header.scss';
 @import 'post.scss';

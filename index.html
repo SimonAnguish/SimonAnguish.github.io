@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,6 +15,7 @@ layout: default
         <p>
           {{ post.content | strip_html | truncatewords: 50 }}
         </p>
+        <p class="tags">{{ post.categories | array_to_sentence_string  }}</p>
       </li>
       <p><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
       <hr>

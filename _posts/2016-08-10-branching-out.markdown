@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Branching Out
 date: 2016-08-10 15:53
 categories: git blog learning algorithms vacation

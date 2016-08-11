@@ -1,4 +1,4 @@
-* {
+body {
 	font-family: $base-font-family;
 	font-weight: $base-font-weight;
 }
@@ -23,7 +23,7 @@
 /*}*/
 
 blockquote {
-	background: $grey-color-light;
+	background: $blockquote-light-grey;
 	padding: .25em 1em;
 	border: 2px solid $grey-color-dark;
 	border-radius: 2px;
@@ -44,4 +44,17 @@ blockquote {
 
 .post-content {
 	margin-top: 20px;
+}
+
+.highlighter-rouge {
+	background: $blockquote-light-grey;
+	padding: .25em 1em;
+	border: 2px solid $grey-color-dark;
+	border-radius: 2px;
+	width: 50%;
+	margin: 1em auto;
+}
+
+.language-shell {
+	font-family: monospace;
 }

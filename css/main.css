@@ -1,0 +1,41 @@
+header {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.body-content {
+    font-weight: 100;
+}
+
+.body-content .container {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.body-content #introduction {
+    margin: 4rem auto;
+}
+
+.body-content #introduction p {
+    font-size: 30px;
+    margin: 1rem;
+}
+
+.body-content #introductiond label {
+    font-size: 18px;
+}
+
+.body-content #introduction img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 1px 3px 2px lightgrey;
+}
+
+.body-content #tools img {
+    height: 50px;
+    width: 50px;
+    margin: 0 2rem;
+}

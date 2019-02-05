@@ -28,3 +28,9 @@ markdown: kramdown
 
 sass:
   sass_dir: _sass
+
+defaults:
+  - scope:
+    path: "images"
+    values:
+      image: true

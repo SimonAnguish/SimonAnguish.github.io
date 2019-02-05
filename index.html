@@ -4,14 +4,18 @@ layout: default
 
 <div class="home">
     <div class="container" id="introduction">
-        <img class="headshot" src="/images/headshot.jpeg" />
+        <img class="headshot" src="img/headshot.jpeg" />
         <h2>Simon Anguish</h2>
         <h3>Software Developer</h3>
     </div>
 
+    {% for image in site.static_files %}
+        {{ image }}
+    {% endfor %}
+
     <div class="container" id="tools">
         <h1>Tools I Use (often):</h1>
-        <img src="/images/vim.png" />
-        <img src="/images/gitlab.png" />
+        <img src="img/vim.png" />
+        <img src="img/gitlab.png" />
     </div>
 </div>

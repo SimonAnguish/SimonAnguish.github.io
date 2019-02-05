@@ -41,3 +41,7 @@ header a {
     width: 50px;
     margin: 0 2rem;
 }
+
+.body-content #about > div {
+    text-align: left;
+}

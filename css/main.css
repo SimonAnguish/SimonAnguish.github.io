@@ -23,7 +23,9 @@ header a {
 
 .body-content #about-me .mdl-card__title {
     color: #fff;
-    background: url('../images/card-background-stowe.jpg') middle left 100% no-repeat;
+    background-image: url('../img/card-background-stowe.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .body-content #introduction p {
@@ -49,4 +51,5 @@ header a {
 
 .body-content #about > div {
     text-align: left;
+    height: 300px;
 }

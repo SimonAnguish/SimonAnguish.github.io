@@ -21,12 +21,17 @@ header a {
     margin: 4rem auto;
 }
 
+.body-content #introduction mdl-card__title {
+    color: #fff;
+    background: url("../images/card-background-stowe.jpg") middle left 100% no-repeat;
+}
+
 .body-content #introduction p {
     font-size: 30px;
     margin: 1rem;
 }
 
-.body-content #introductiond label {
+.body-content #introduction label {
     font-size: 18px;
 }
 

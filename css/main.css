@@ -21,7 +21,7 @@ header a {
     margin: 4rem auto;
 }
 
-.body-content #about-me mdl-card__title {
+.body-content #about-me .mdl-card__title {
     color: #fff;
     background: url('../images/card-background-stowe.jpg') middle left 100% no-repeat;
 }

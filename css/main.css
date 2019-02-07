@@ -28,6 +28,20 @@ header a {
     background-size: 100%;
 }
 
+.body-content #about-food .mdl-card__title {
+    color: #fff;
+    background-color: #248c26;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body-content #about-beer .mdl-card__title {
+    color: #fff;
+    background-color: #a87337;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .body-content #introduction p {
     font-size: 30px;
     margin: 1rem;

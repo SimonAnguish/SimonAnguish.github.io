@@ -1,69 +1,34 @@
-header {
-    color: white;
+body nav {
+    min-height: 5rem;
+    width: 100%;
+    background: #3b3a36;
 }
 
-header a {
-    color: white;
-    text-decoration: none;
+body nav img {
+    height: 75px;
+    width: 75px;
 }
 
-.body-content {
-    font-weight: 100;
+body nav .social-links {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
-.body-content .container {
-    margin: 1rem auto;
-    width: 80%;
-    text-align: center;
+h1 {
+    display: block;
+    font-size: 2rem;
 }
 
-.body-content #introduction {
-    margin: 4rem auto;
+h3 {
+    display: block;
+    font-size: 1.17rem;
 }
 
-.body-content #about-me .mdl-card__title {
-    color: #fff;
-    background-image: url('../img/card-background-stowe.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #about-food .mdl-card__title {
-    color: #fff;
-    background-color: #248c26;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #about-beer .mdl-card__title {
-    color: #fff;
-    background-color: #a87337;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #introduction p {
-    font-size: 30px;
-    margin: 1rem;
-}
-
-.body-content #introduction label {
-    font-size: 18px;
-}
-
-.body-content #introduction img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 0px 1px 3px 2px lightgrey;
-}
-
-.body-content #tools img {
-    height: 50px;
-    width: 50px;
-    margin: 0 2rem;
-}
-
-.body-content #about > div {
-    text-align: left;
-    height: 300px;
+h4 {
+    display: block;
+    font-size: 1rem;
 }

@@ -1,86 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Home | Simon Anguish</title>
-        <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-red.min.css" />
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./fa/css/all.css">
+        <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css">
+
     </head>
-	<div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title"><a class="site-title-header" href="/">Simon Anguish</a></span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" target="_blank" href="https://github.com/SimonAnguish">Github</a>
-                    <a class="mdl-navigation__link" target="_blank" href="https://www.linkedin.com/in/simon-anguish-79979989
-                    ">LinkedIn</a>
-                    <a class="mdl-navigation__link" href="#about">About</a>
-                </nav>
+    <body>
+        <nav>
+            <img src="img/headshot.png" />
+            <div class="site-title">
+                <h1>Simon Anguish</h1>
+                <h4>Software Developer</h4>
             </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Simon Anguish</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" target="_blank" href="https://github.com/SimonAnguish">Github</a>
-                <a class="mdl-navigation__link" target="_blank" href="https://www.linkedin.com/in/simon-anguish-79979989
-                ">LinkedIn</a>
-                <a class="mdl-navigation__link" href="/about">About</a>
-            </nav>
+            <ul class="social-links">
+                <a href="https://www.github.com/SimonAnguish"><li class="fab fa-github"></li></a>
+                <a href="https://www.linkedin.com/in/simon-anguish-79979989"><li class="fab fa-linkedin-in"></li></a>
+                <a href="https://www.instagram.com/simon.anguish/"><li class="fab fa-instagram"></li></a>
+            </ul>
+        </nav>
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="background: url('./img/card-background-stowe.jpg') center; background-size: cover;">
+                <div class="lazy info-card"></div>
+            </div>
+            <div class="item" style="background: url('./img/cinnamon-buns.jpg') center; background-size: cover">
+                <div class="lazy info-card"></div>
+            </div>
         </div>
-		<body>
-			<div class="body-content">
-                <div class="home">
-                    <div class="container" id="introduction">
-                        <img class="headshot" src="img/headshot.png" />
-                        <p>Simon Anguish</p>
-                        <label>Software Developer</label>
-                    </div>
-                    <div class="container" id="tools">
-                        <h1>Tools I Use (often):</h1>
-                        <img src="img/vim.png" />
-                        <img src="img/gitlab.png" />
-                    </div>
-                    <div class="container mdl-grid" id="about">
-                        <div id="about-me" class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
-                            <div class="mdl-card__title mdl-card--expand">
-                                <h2 class="mdl-card__title-text">About Me</h2>
-                            </div>
-                            <div class="mdl-card__supporting-text">
-                                I'm originally from Ontario, Canada, and moved to Vermont when I was 5 years old. I attended the
-                                University of Vermont, studying Computer Science and and minoring in Mathematics. Since graduating
-                                in the Spring of 2017, I've been working as a Software Developer at <a
-                                href="https://www.logicsupply.com/">Logic Supply, Inc.</a>
-                            </div>
-                        </div>
+        <div id="about" class="content-block">
+            <h2>About Me</h2>
+            <p>My parents moved to the United States when I was 5 years old. I attended both Elementary and High School in central Vermont before going to the University of Vermont for Computer Science. I graduated with a Bachelor of Science degree in CS and a minor in Mathematics in the sprint of 2017. Since then, I have been working as a Software Engineer at <a href="https://www.onlogic.com/">OnLogic</a> in the E-Commerce space.
+                <br/><br/>
+            My free time is mostly consumed by experimenting with cooking and baking. To me, cooking is a relatively efficient way of practicing problem solving skills, time management, and adapting to changes in the environment.
+            </p>
+        </div>
+        <footer>
+            <script src="./js/jquery.min.js"></script>
+            <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="./js/jquery.lazy.min.js"></script>
 
-                        <div id="about-food" class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
-                            <div class="mdl-card__title mdl-card--expand">
-                                <h2 class="mdl-card__title-text">I Like Food</h2>
-                            </div>
-                            <div class="mdl-card__supporting-text">
-                                For two summers after graduating from High School, I worked as a Dishwasher, Server, Line Cook, and
-                                Prep Cook at 3 Squares Cafe in Vergennes, Vermont. Since then, I've always tried to experiment with
-                                my food, trying new recipes and new restaurants.
-                            </div>
-                        </div>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.lazy').Lazy();
 
-                        <div id="about-beer" class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
-                            <div class="mdl-card__title mdl-card--expand">
-                                <h2 class="mdl-card__title-text">I'm A Homebrewer</h2>
-                            </div>
-                            <div class="mdl-card__supporting-text">
-                                Homebrewing has been a passion of mine for a few years, and I've used my experience and creativity
-                                in coming up with some crazy brews. I've also dipped my toes into other fermented foods and drinks,
-                                such as Cider, Mead, Kombucha, and Saurkraut.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</body>
-	</div>
+                    $(".owl-carousel").owlCarousel({
+                        lazyLoad: true,
+                        autoplayTimeout: 10000,
+                        nav: false,
+                        autoplay: true,
+                        margin: 10,
+                        loop: true,
+                        items: 1,
+                        dots: true,
+                        mouseDrag: false,
+                        mergeFit: false,
+                    });
+                });
+            </script>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://www.github.com/SimonAnguish">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/simon-anguish-79979989">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/simon.anguish/">Instagram</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>

@@ -1,69 +1,114 @@
-header {
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-header a {
-    color: white;
+li {
+    list-style-type: none;
+}
+
+body {
+    background: #ffffff;
+}
+
+body nav {
+    height: 5rem;
+    width: 100%;
+    background: #3b3a36;
+    color: #e9ece5;
+
+}
+
+body nav > * {
+    display: inline-block;
+}
+
+body nav img {
+    float: left;
+    width: 5rem;
+}
+
+body nav .site-title {
+    float: left;
+    padding: 1rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body nav .social-links {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    margin-right: 3rem;
+}
+
+body nav .social-links li {
+    margin: 1rem;
+    font-size: 2rem;
+    color: #e9ece5;
+}
+
+body nav .social-links li:hover {
+    color: #ffffff;
+}
+
+body .content-block {
+    min-height: 10rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cecece;
+}
+
+body .content-block p {
+    max-width: 70%;
+    line-height: 1.25rem;
+    padding: 1rem 0;
+}
+
+body .owl-carousel .item {
+    height: 25rem;
+}
+
+footer {
+    background: #fff;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    background: #3b3a36;
+    color: #e9ece5;
+}
+
+footer .footer-nav {
+    font-size: .8rem;
+    line-height: 1.5rem;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+footer .footer-nav a {
+    color: #e9ece5;
     text-decoration: none;
 }
 
-.body-content {
-    font-weight: 100;
+h1 {
+    display: block;
+    font-size: 2rem;
 }
 
-.body-content .container {
-    margin: 1rem auto;
-    width: 80%;
-    text-align: center;
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
-.body-content #introduction {
-    margin: 4rem auto;
-}
-
-.body-content #about-me .mdl-card__title {
-    color: #fff;
-    background-image: url('../img/card-background-stowe.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #about-food .mdl-card__title {
-    color: #fff;
-    background-color: #248c26;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #about-beer .mdl-card__title {
-    color: #fff;
-    background-color: #a87337;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.body-content #introduction p {
-    font-size: 30px;
-    margin: 1rem;
-}
-
-.body-content #introduction label {
-    font-size: 18px;
-}
-
-.body-content #introduction img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 0px 1px 3px 2px lightgrey;
-}
-
-.body-content #tools img {
-    height: 50px;
-    width: 50px;
-    margin: 0 2rem;
-}
-
-.body-content #about > div {
-    text-align: left;
-    height: 300px;
+h4 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
 }

@@ -2,26 +2,70 @@
 <html lang="en">
     <head>
         <title>Home | Simon Anguish</title>
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./fa/css/all.css">
+        <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css">
+
     </head>
     <body>
         <nav>
             <img src="img/headshot.png" />
-            <h1>Simon Anguish</h1>
-            <h4>Software Developer</h4>
+            <div class="site-title">
+                <h1>Simon Anguish</h1>
+                <h4>Software Developer</h4>
+            </div>
             <ul class="social-links">
-                <li class="github-icon"></li>
-                <li class="linkedin-icon"></li>
-                <li class="instagram-icon"></li>
+                <a href="https://www.github.com/SimonAnguish"><li class="fab fa-github"></li></a>
+                <a href="https://www.linkedin.com/in/simon-anguish-79979989"><li class="fab fa-linkedin-in"></li></a>
+                <a href="https://www.instagram.com/simon.anguish/"><li class="fab fa-instagram"></li></a>
             </ul>
         </nav>
-        <div id="about">
-            <h3>About Me</h3>
-            <p></p>
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="background: url('./img/card-background-stowe.jpg') center; background-size: cover;">
+                <div class="lazy info-card"></div>
+            </div>
+            <div class="item" style="background: url('./img/cinnamon-buns.jpg') center; background-size: cover">
+                <div class="lazy info-card"></div>
+            </div>
         </div>
-        <div id="food">
-            <h3>Cooking & Baking</h3>
-            <p></p>
+        <div id="about" class="content-block">
+            <h2>About Me</h2>
+            <p>My parents moved to the United States when I was 5 years old. I attended both Elementary and High School in central Vermont before going to the University of Vermont for Computer Science. I graduated with a Bachelor of Science degree in CS and a minor in Mathematics in the sprint of 2017. Since then, I have been working as a Software Engineer at <a href="https://www.onlogic.com/">OnLogic</a> in the E-Commerce space.
+                <br/><br/>
+            My free time is mostly consumed by experimenting with cooking and baking. To me, cooking is a relatively efficient way of practicing problem solving skills, time management, and adapting to changes in the environment.
+            </p>
         </div>
+        <footer>
+            <script src="./js/jquery.min.js"></script>
+            <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="./js/jquery.lazy.min.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.lazy').Lazy();
+
+                    $(".owl-carousel").owlCarousel({
+                        lazyLoad: true,
+                        autoplayTimeout: 10000,
+                        nav: false,
+                        autoplay: true,
+                        margin: 10,
+                        loop: true,
+                        items: 1,
+                        dots: true,
+                        mouseDrag: false,
+                        mergeFit: false,
+                    });
+                });
+            </script>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://www.github.com/SimonAnguish">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/simon-anguish-79979989">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/simon.anguish/">Instagram</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>

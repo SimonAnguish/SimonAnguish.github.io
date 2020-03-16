@@ -58,16 +58,24 @@ body nav .social-links li:hover {
 }
 
 body .content-block {
+    width: 65%;
     min-height: 10rem;
     padding: 1rem 2rem;
     box-sizing: border-box;
+    display: inline-block;
     border-bottom: 1px solid #cecece;
 }
 
 body .content-block p {
-    max-width: 70%;
     line-height: 1.25rem;
     padding: 1rem 0;
+}
+
+body .sidebar-block {
+    max-width: 25rem;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #3b3a36;
 }
 
 body .owl-carousel .item {
@@ -76,7 +84,7 @@ body .owl-carousel .item {
 
 footer {
     background: #fff;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 2rem;

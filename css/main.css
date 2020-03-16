@@ -71,11 +71,12 @@ body .content-block p {
 }
 
 body .owl-carousel .item {
-    height: 25rem;
+    height: 40rem;
 }
 
 footer {
     background: #fff;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 2rem;

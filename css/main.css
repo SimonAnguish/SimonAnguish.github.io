@@ -12,12 +12,24 @@ body {
     background: #ffffff;
 }
 
+body a {
+    color: #3b3a36;
+}
+
+body a:visited {
+    color: #999999;
+}
+
 body nav {
     height: 5rem;
     width: 100%;
     background: #3b3a36;
     color: #e9ece5;
 
+}
+
+body nav a {
+    color: #e9ece5;
 }
 
 body nav > * {
@@ -74,12 +86,28 @@ body .content-block p {
 body .sidebar-block {
     max-width: 25rem;
     width: 30%;
-    display: inline-block;
     border: 1px solid #3b3a36;
+    min-height: 15rem;
+    float: right;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+body .sidebar-block h3 {
+    text-align: center;
+}
+
+body .sidebar-block ul {
+    margin: 1rem;
+}
+
+body .sidebar-block ul li {
+    list-style-type: disc;
 }
 
 body .owl-carousel .item {
-    height: 40rem;
+    height: 35rem;
 }
 
 footer {

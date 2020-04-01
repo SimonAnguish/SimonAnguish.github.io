@@ -1,0 +1,24 @@
+{
+  "name": "simonanguish.github.io",
+  "version": "1.0.0",
+  "description": "A quick website to serve as extended resources found on my resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonAnguish/SimonAnguish.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonAnguish/SimonAnguish.github.io/issues"
+  },
+  "homepage": "https://github.com/SimonAnguish/SimonAnguish.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "reset-css": "^5.0.1"
+  }
+}

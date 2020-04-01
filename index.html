@@ -3,78 +3,59 @@
     <head>
         <title>Home | Simon Anguish</title>
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
-        <link rel="stylesheet" type="text/css" href="./fa/css/all.css" />
-        <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css" />
-        <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css" />
         <link rel="icon" href="./img/favicon.ico" />
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <img src="img/headshot.png" />
-            <div class="site-title">
-                <h1>Simon Anguish</h1>
-                <h4>Software Developer</h4>
-            </div>
-            <ul class="social-links">
-                <a href="https://www.github.com/SimonAnguish"><li class="fab fa-github"></li></a>
-                <a href="https://www.linkedin.com/in/simon-anguish-79979989"><li class="fab fa-linkedin-in"></li></a>
-                <a href="https://www.instagram.com/simon.anguish/"><li class="fab fa-instagram"></li></a>
-            </ul>
-        </nav>
-        <div class="owl-carousel owl-theme">
-            <div class="item" style="background: url('./img/card-background-stowe.jpg') center; background-size: cover;">
-                <div class="lazy info-card"></div>
-            </div>
-            <div class="item" style="background: url('./img/cinnamon-buns.jpg') center; background-size: cover">
-                <div class="lazy info-card"></div>
-            </div>
-        </div>
-        <div id="about" class="content-block">
-            <h2>About Me</h2>
-            <p>
-                My name is Simon. I was born in Ontario, Canada, grew up in Vermont, and am currently working at <a href=”https://www.onlogic.com/”>OnLogic</a> as an E-Commerce Software Developer.
-            </p>
-            <p>
-                Most of my spare time is consumed in the kitchen. To me, cooking and baking are relatively efficient ways of practicing problem solving skills, time management, and adapting to changes in the environment.
-            </p>
-        </div>
-        <div id="projects" class="sidebar-block">
-            <h3>Projects</h3>
-            <ul>
-                <li><a href="/raincloud">Raincloud</a></li>
-            </ul>
-        </div>
-        <footer>
-            <script src="./js/jquery.min.js"></script>
-            <script src="./js/owlcarousel/owl.carousel.min.js"></script>
-            <script type="text/javascript" src="./js/jquery.lazy.min.js"></script>
-
-            <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.lazy').Lazy();
-
-                    $(".owl-carousel").owlCarousel({
-                        lazyLoad: true,
-                        autoplayTimeout: 10000,
-                        nav: false,
-                        autoplay: true,
-                        margin: 10,
-                        loop: true,
-                        items: 1,
-                        dots: true,
-                        mouseDrag: false,
-                        mergeFit: false,
-                    });
-                });
-            </script>
-            <div class="footer-nav">
+        <header>
+            <h1>Simon Anguish</h1>
+            <nav>
                 <ul>
-                    <li><a href="https://www.github.com/SimonAnguish">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/simon-anguish-79979989">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/simon.anguish/">Instagram</a></li>
+                    <li>Social</li>
+                    <li>About</li>
+                    <li>Resume</li>
                 </ul>
+            </nav>
+        </header>
+
+        <div class='card'>
+            <div class='media'>
+                <span>SINIMIN</span>
             </div>
-        </footer>
+            <div class='content'>
+                <h2>Twitch</h2>
+                <p>I host a weekly Early Morning Indie Games stream every Saturday morning from 9-12:30. My goal is to discover new games from smaller development studios that need more exposure. I plan to occasionally stream larger, multiplayer games with friends on a semi-regularly evening schedule.</p>
+            </div>
+        </div>
+
+        <div class='card'>
+            <div class='media'>
+                <span>Simon Anguish</span>
+            </div>
+            <div class='content'>
+                <h2>YouTube</h2>
+                <p>One of my interests outside of software development is video editing. I aim to produce at least one video per week, consisting of either a gameplay review of the Indie games explored on my regular Saturday streams, funny moments from other games played with friends, or occasional video projects of non Video Game content.</p>
+            </div>
+        </div>
+
+        <div class='card'>
+            <div class='media'>
+                <span>About Me</span>
+            </div>
+            <div class='content'>
+                <h2>About Me</h2>
+                <p>I am a Frontend Developer currently looking for work on the West Coast of the United States. I have experience working in MERN and LAMP stacks, and past projects have included microservice development for Google Rich Snippets and Product Information Management tools. My hobbies include Cooking, Running, Video Editing, and Interior Design. I am living in Burlington, Vermont, with plans to move soon.</p>
+            </div>
+        </div>
+
+        <div class='card'>
+            <div class='media'>
+                <span>Resume</span>
+            </div>
+            <div class='content'>
+                <p>For more information about my professional background, you can find a link to my resume below.</p>
+            </div>
+        </div>
+
     </body>
 </html>

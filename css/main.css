@@ -1,151 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-li {
-    list-style-type: none;
-}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none; }
 
 body {
-    background: #ffffff;
-}
+  line-height: 1; }
 
-body a {
-    color: #3b3a36;
-}
+menu, ol, ul {
+  list-style: none; }
 
-body a:visited {
-    color: #999999;
-}
+blockquote, q {
+  quotes: none; }
 
-body nav {
-    height: 5rem;
-    width: 100%;
-    background: #3b3a36;
-    color: #e9ece5;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
 
-}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
-body nav a {
-    color: #e9ece5;
-}
+body {
+  background-color: #ffffff;
+  color: #21272D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
 
-body nav > * {
+header {
+  font-size: 26px;
+  height: 3rem;
+  width: 100%;
+  padding: 1rem;
+  border-right: 3rem solid #90AACD;
+  box-sizing: border-box; }
+  header h1 {
+    display: inline;
+    font-weight: 700; }
+  header nav {
     display: inline-block;
-}
+    position: absolute;
+    right: 3rem;
+    max-width: 60%; }
+    header nav li {
+      list-style-type: none;
+      display: inline;
+      padding: 1rem; }
 
-body nav img {
-    float: left;
-    width: 5rem;
-}
-
-body nav .site-title {
-    float: left;
-    padding: 1rem;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-body nav .social-links {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 5rem;
-    margin-right: 3rem;
-}
-
-body nav .social-links li {
-    margin: 1rem;
-    font-size: 2rem;
-    color: #e9ece5;
-}
-
-body nav .social-links li:hover {
+.card {
+  max-width: 1200px;
+  box-sizing: border-box;
+  width: 100%; }
+  .card .media {
+    background-color: #6441A4;
+    display: block;
     color: #ffffff;
-}
-
-body .content-block {
-    width: 65%;
-    min-height: 10rem;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
-    display: inline-block;
-    border-bottom: 1px solid #cecece;
-}
-
-body .content-block p {
-    line-height: 1.25rem;
-    padding: 1rem 0;
-}
-
-body .sidebar-block {
-    max-width: 25rem;
-    width: 30%;
-    border: 1px solid #3b3a36;
-    min-height: 15rem;
-    float: right;
-    box-sizing: border-box;
-    padding: 1rem;
-    margin-right: 1rem;
-}
-
-body .sidebar-block h3 {
-    text-align: center;
-}
-
-body .sidebar-block ul {
-    margin: 1rem;
-}
-
-body .sidebar-block ul li {
-    list-style-type: disc;
-}
-
-body .owl-carousel .item {
-    height: 35rem;
-}
-
-footer {
-    background: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 2rem;
-    background: #3b3a36;
-    color: #e9ece5;
-}
-
-footer .footer-nav {
-    font-size: .8rem;
-    line-height: 1.5rem;
-    display: block;
-    margin: auto;
-    width: 50%;
-}
-
-footer .footer-nav a {
-    color: #e9ece5;
-    text-decoration: none;
-}
-
-h1 {
-    display: block;
-    font-size: 2rem;
-}
-
-h2 {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-h4 {
-    display: block;
-    font-size: 1rem;
-    font-weight: 300;
-}
+    width: 1200px;
+    height: 600px;
+    max-width: 1200px;
+    margin: auto; }
+  .card .content {
+    background-color: #ffffff;
+    padding: 1rem; }
+    .card .content h2 {
+      font-size: 50px; }
+    .card .content p {
+      font-size: 24px; }

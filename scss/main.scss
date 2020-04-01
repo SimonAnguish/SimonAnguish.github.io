@@ -1,0 +1,68 @@
+@import './variables.scss';
+@import '../node_modules/reset-css/sass/reset';
+
+body {
+    background-color: $white;
+    color: $text-gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+header {
+    font-size: $nav-font-size;
+    height: $nav-max-height;
+    width: 100%;
+    padding: 1rem;
+    border-right: $nav-max-height solid $robin-blue;
+    box-sizing: border-box;
+
+    h1 {
+        display: inline;
+        font-weight: 700;
+    }
+
+    nav {
+        display: inline-block;
+        position: absolute;
+        right: $nav-max-height;
+        max-width: 60%;
+
+        ul {
+        }
+
+        li {
+            list-style-type: none;
+            display: inline;
+            padding: 1rem;
+        }
+    }
+}
+
+.card {
+    max-width: $content-max-width;
+    box-sizing: border-box;
+    width: 100%;
+
+    .media {
+        background-color: $twitch-purple;
+        display: block;
+        color: $white;
+        width: $content-max-width;
+        height: $media-max-height;
+        max-width: $content-max-width;
+        margin: auto;
+    }
+
+    .content {
+        background-color: $white;
+        padding: 1rem;
+
+        h2 {
+            font-size: $section-title-font-size;
+        }
+
+        p {
+            font-size: $section-content-font-size;
+        }
+    }
+}

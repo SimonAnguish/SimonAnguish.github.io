@@ -9,6 +9,16 @@ body {
     padding-top: $nav-max-height;
 }
 
+a {
+    color: $text-gray;
+    text-decoration: none;
+
+    &:hover {
+        color: $text-gray;
+        border-bottom: 2px solid $robin-blue;
+    }
+}
+
 header {
     font-size: $nav-font-size;
     height: $nav-max-height;

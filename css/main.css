@@ -56,6 +56,13 @@ body {
   font-weight: 500;
   padding-top: 3rem; }
 
+a {
+  color: #21272D;
+  text-decoration: none; }
+  a:hover {
+    color: #21272D;
+    border-bottom: 2px solid #90AACD; }
+
 header {
   font-size: 26px;
   height: 3rem;

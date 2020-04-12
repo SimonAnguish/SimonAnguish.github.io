@@ -92,7 +92,6 @@ header {
   width: 100%;
   margin: auto; }
   .card .media {
-    background-color: #6441A4;
     display: block;
     color: #ffffff;
     width: 100%;
@@ -111,8 +110,23 @@ header {
       font-size: 24px;
       line-height: 2rem; }
 
+#twitch .media {
+  background-color: #6441A4; }
+
+#youtube .media {
+  background-color: #ff0000; }
+
+#about .media {
+  background-color: #445A7C; }
+
+#resume .media {
+  background-color: #707070; }
+
 @media screen and (max-width: 666px) {
   .card .media {
     text-align: center;
     padding: 0rem;
-    height: 480px; } }
+    height: 480px; }
+  header {
+    font-size: 18px;
+    border-right: none; } }

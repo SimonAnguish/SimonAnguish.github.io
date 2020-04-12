@@ -56,7 +56,6 @@ header {
     margin: auto;
 
     .media {
-        background-color: $twitch-purple;
         display: block;
         color: $white;
         width: 100%;
@@ -83,6 +82,22 @@ header {
     }
 }
 
+#twitch .media {
+    background-color: $twitch-purple;
+}
+
+#youtube .media {
+    background-color: $youtube-red;
+}
+
+#about .media {
+    background-color: $clearday-blue;
+}
+
+#resume .media {
+    background-color: $thundercloud-gray;
+}
+
 @media screen and (max-width: $mobile-max-width) {
      .card {
          .media {
@@ -90,5 +105,10 @@ header {
              padding: 0rem;
              height: $mobile-media-max-height;
          }
+     }
+
+     header {
+         font-size: $nav-font-size__mobile;
+        border-right: none;
      }
 }

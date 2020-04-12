@@ -100,34 +100,45 @@ header {
     background-color: $clearday-blue;
 }
 
-#resume .media {
-    background-color: $thundercloud-gray;
+#resume {
+    .media {
+        background-color: $thundercloud-gray;
+    }
+
+    .resume-link {
+        font-size: $section-title-font-size;
+        color: $clearday-blue;
+        text-align: center;
+        display: inline-block;
+        margin: .5rem 0;
+    }
 }
 
 @media screen and (max-width: $mobile-max-width) {
-     .card {
-         .media {
+    .card {
+        .media {
             text-align: center;
             padding: 0rem;
             height: $mobile-media-max-height;
             flex-wrap: wrap;
-
             svg {
                 flex-grow: 1;
             }
-
             span {
                 width: 100%;
             }
-         }
-     }
+        }
 
-     header {
+        .resume-link {
+            font-size: $nav-font-size;
+        }
+    }
+
+    header {
         font-size: $nav-font-size__mobile;
         border-right: none;
-
         nav li {
             padding: .5rem;
         }
-     }
+    }
 }

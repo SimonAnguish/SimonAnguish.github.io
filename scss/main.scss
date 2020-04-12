@@ -63,7 +63,12 @@ header {
         max-width: $content-max-width;
         margin: auto;
         font-size: 80px;
-        padding: 2rem;
+        padding: 2rem 4rem;
+        box-sizing: border-box;
+
+        svg {
+            margin: 3rem;
+        }
     }
 
     .content {
@@ -101,14 +106,27 @@ header {
 @media screen and (max-width: $mobile-max-width) {
      .card {
          .media {
-             text-align: center;
-             padding: 0rem;
-             height: $mobile-media-max-height;
+            text-align: center;
+            padding: 0rem;
+            height: $mobile-media-max-height;
+            flex-wrap: wrap;
+
+            svg {
+                flex-grow: 1;
+            }
+
+            span {
+                width: 100%;
+            }
          }
      }
 
      header {
-         font-size: $nav-font-size__mobile;
+        font-size: $nav-font-size__mobile;
         border-right: none;
+
+        nav li {
+            padding: .5rem;
+        }
      }
 }

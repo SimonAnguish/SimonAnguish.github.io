@@ -99,7 +99,10 @@ header {
     max-width: 1200px;
     margin: auto;
     font-size: 80px;
-    padding: 2rem; }
+    padding: 2rem 4rem;
+    box-sizing: border-box; }
+    .card .media svg {
+      margin: 3rem; }
   .card .content {
     background-color: #ffffff;
     padding: 3rem 1rem; }
@@ -126,7 +129,14 @@ header {
   .card .media {
     text-align: center;
     padding: 0rem;
-    height: 480px; }
+    height: 480px;
+    flex-wrap: wrap; }
+    .card .media svg {
+      flex-grow: 1; }
+    .card .media span {
+      width: 100%; }
   header {
     font-size: 18px;
-    border-right: none; } }
+    border-right: none; }
+    header nav li {
+      padding: .5rem; } }
